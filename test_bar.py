@@ -40,6 +40,7 @@ def main():
     pile.close()
     for i in os.listdir(foldermask):
         os.unlink(Path(foldermask)/i)
+    print('Пришлось закомментить весь код, тоска :(')
     print('complete!')
 if __name__ == '__main__':
     main()
